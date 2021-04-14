@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background-color: rgba(207, 205, 205, 0.6);
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stopwatch-wrapper {
+  width: 50%;
+  height: 40%;
+  padding: 0.4rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 5rem;
+}
